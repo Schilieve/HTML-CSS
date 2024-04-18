@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /* Aplica a imagem */
+    background-image: url(img/img3.jpg);
+    /* Não repetir a imagem */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+    flex-direction: row-reverse ;
+    margin-top:20px;
+    margin-right:40px;
+
+}
+
+.login a {
+    /* Deixa o texto maiusculo */
+    text-transform: uppercase;
+    /* Tirar o sublinhado  */
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 900;
+    color: #8c7b7c;
+    background-color: BEIGE;
+
+    padding: 10PX 30PX;
+    /* Arredondando as bordas */
+    border-radius: 15px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 80;
+    color: beige;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+
+
+
+
+    }
+
+.informacoes p{
+    font-size: 30px;
+    color: beige;
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    text-align: center;
+}
+#inputNome{
+    /* Largura */
+    width: 500px;
+    /* Altura */
+    height:40px ;
+    /* Arredonda a borda */
+    border-radius: 15px;
+    /* Tira a borda do input */
+    border-style: none;
+}
+#inputEmail{
+    /* Largura */
+    width: 322px;
+    /* Altura */
+    height: 40px;
+    /* Arredonda a borda */
+    border-radius: 15px;
+    border-style: none;
+}
+
+.botaoLogin{
+    /* Largura */
+    width: 175px;
+    /* cor*/
+    color: beige;
+    /* cor de fundo */
+    background-color: #8c7b7c;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    /* tamanho da fonte */
+    font-size: 30px;
+    /* Maiusculo */
+    text-transform: uppercase;
+    /* Remover a borda */
+    border-style: none;
+    height: 40px;
+}
+.inputs{
+    /* Ajuste de posicionamento */
+    display: flex;
+    /* Direcao dos itens - em coluna */
+    flex-direction: column;
+    /* Alinhar ao centro */
+    align-items:center ;
+    /* Aumentar a margem do topo */
+    margin-top: 30px;
+}
+.entarEmail{
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 497;
+
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 700px;
+
+
+}
+.redes img{
+    width: 40px;
+    
+    
+  
+
+}
